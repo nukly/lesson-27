@@ -4,6 +4,7 @@
   "proxy": "http://localhost:5000",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.16.5",
     "firebase": "6.0.2",
     "node-sass": "4.12.0",
     "react": "^17.0.1",
@@ -14,6 +15,7 @@
     "redux": "4.0.1",
     "redux-logger": "3.0.6",
     "redux-persist": "5.10.0",
+    "redux-thunk": "^2.4.1",
     "reselect": "4.0.0",
     "styled-components": "4.2.0"
   },
@@ -43,5 +45,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "We've moved our shop data into our firestore database, now we need to modify our application in such a way that considers our data being loaded asynchronously. We have created a WithSpinner HOC as well as modified our shop to initialize the call for data.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nukly/lesson-27.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nukly/lesson-27/issues"
+  },
+  "homepage": "https://github.com/nukly/lesson-27#readme"
 }
