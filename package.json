@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "proxy": "http://localhost:5000",
   "private": true,
+  "engines": {
+    "node": "16.13.1"
+  },
   "dependencies": {
     "@babel/plugin-proposal-optional-chaining": "^7.16.5",
     "firebase": "6.0.2",
